@@ -5,5 +5,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('signupPage/',signupPage,name="signupPage"),
     path('loginPage/',loginPage,name="loginPage"),
-    path('dashboardPage/',dashboardPage,name="dashboardPage"),
+    path('',dashboardPage,name="dashboardPage"),
 ]
